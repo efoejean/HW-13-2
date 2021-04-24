@@ -5,6 +5,8 @@ const minFormNum = document.querySelector('#min-num');
 const maxFormNum = document.querySelector('#max-num');
 const color = document.querySelector('input[type="color"]');
 const btn = document.querySelector('.button--random');
+let newMin = 0;
+let newMax = 0;
 
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
@@ -17,12 +19,12 @@ color.addEventListener('input', event => {
 });
 minFormNum.addEventListener('submit', event => {
   event.preventDefault();
-  const newMin = event.target.elements[0].value;
+  newMin = event.target.elements[0].value;
   console.log(newMin);
 });
 
 maxFormNum.addEventListener('submit', event => {
   event.preventDefault();
-  const newMax = event.target.elements[0].value;
+  newMax = event.target.elements[0].value;
   console.log(newMax);
 });
