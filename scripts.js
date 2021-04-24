@@ -1,3 +1,5 @@
+const p = document.createElement('p');
+document.body.appendChild(p);
 const minFormNum = document.querySelector('#min-num');
 const maxFormNum = document.querySelector('#max-num');
 
