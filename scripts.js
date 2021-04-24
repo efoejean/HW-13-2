@@ -20,15 +20,13 @@ color.addEventListener('input', event => {
 minFormNum.addEventListener('submit', event => {
   event.preventDefault();
   newMin = event.target.elements[0].value;
-  console.log(newMin);
 });
 
 maxFormNum.addEventListener('submit', event => {
   event.preventDefault();
   newMax = event.target.elements[0].value;
-  console.log(newMax);
 });
 btn.addEventListener('click', () => {
   const ranNumber = getRandomIntInclusive(newMin, newMax);
-  console.log(ranNumber);
+  p.innerHTML = ranNumber;
 });
