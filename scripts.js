@@ -28,3 +28,7 @@ maxFormNum.addEventListener('submit', event => {
   newMax = event.target.elements[0].value;
   console.log(newMax);
 });
+btn.addEventListener('click', () => {
+  const ranNumber = getRandomIntInclusive(newMin, newMax);
+  console.log(ranNumber);
+});
