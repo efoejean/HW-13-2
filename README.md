@@ -12,7 +12,7 @@ This App will display a random number. after the user set the min number and max
 
 - I have built the App with the knowledge i acquire while reading [This](https://www.notion.so/JS-Fullstack-54e15492a4394ea986c310943305b08e).
 
-- I use this function to generate the random number [getRandomIntInclusive()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
+- I use this function to generate the random number [click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
 
 ### Features
 
