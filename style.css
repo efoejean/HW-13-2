@@ -11,6 +11,10 @@ body {
 }
 p {
   color: var(--color);
+  text-align: center;
+}
+h1 {
+  text-align: center;
 }
 .button {
   background-color: blue;
@@ -44,7 +48,14 @@ p {
 }
 
 .Wrapper {
-  background-color: darkgray;
+  background-image: linear-gradient(
+    to right,
+    #25d362,
+    #66c752,
+    #85bb4a,
+    #98af49,
+    #a4a44e
+  );
   border: solid thin black;
   border-radius: 4px;
   margin: 0 auto;
