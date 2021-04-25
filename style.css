@@ -22,13 +22,10 @@ p {
 .button--random {
   background-color: green;
 }
-.Wrapper {
-  background-color: darkgray;
-  border: solid thin black;
-  border-radius: 4px;
-  margin: 0 auto;
-  padding: 8px;
-  width: 300px;
+.button-jumbo:hover,
+.button-jumbo:focus {
+  border-radius: 32px;
+  color: black;
 }
 
 .flex {
@@ -44,4 +41,13 @@ p {
   left: -9999px;
   position: absolute;
   top: -9999px;
+}
+
+.Wrapper {
+  background-color: darkgray;
+  border: solid thin black;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 8px;
+  width: 300px;
 }
