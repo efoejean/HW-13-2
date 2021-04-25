@@ -1,6 +1,7 @@
 :root {
   --color: black;
   --font-size: 15px;
+  --medium-gap: 10px;
 }
 
 body {
@@ -20,4 +21,21 @@ p {
 }
 .button--random {
   background-color: green;
+}
+.Wrapper {
+  background-color: darkgray;
+  border: solid thin black;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 8px;
+  width: 300px;
+}
+
+.flex {
+  display: flex;
+  gap: var(--medium-gap);
+}
+
+.flex--column {
+  flex-direction: column;
 }

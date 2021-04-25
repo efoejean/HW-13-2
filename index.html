@@ -14,27 +14,33 @@
     <title>Random number Picker</title>
   </head>
   <body>
-    <h1>Random number Picker</h1>
+    <div class="Wrapper flex flex--column">
+      <h1>Random number Picker</h1>
 
-    <form id="min-num">
-      <input type="number" id="min-val" required min="1" /><label for="min-val"
-        >Min Val</label
-      >
-      <button class="button" type="submit">Set Min Value</button>
-    </form>
-    <form id="max-num">
-      <input type="number" id="max-val" required min="1" /><label for="max-val"
-        >Max Val</label
-      >
-      <button class="button" type="submit">Set Max Value</button>
-    </form>
+      <form id="min-num">
+        <input type="number" id="min-val" required min="1" /><label
+          for="min-val"
+          >Min Val</label
+        >
+        <button class="button" type="submit">Set Min Value</button>
+      </form>
+      <form id="max-num">
+        <input type="number" id="max-val" required min="1" /><label
+          for="max-val"
+          >Max Val</label
+        >
+        <button class="button" type="submit">Set Max Value</button>
+      </form>
 
-    <div>
-      <input type="color" id="color" />
-      <label for="color">Font color</label>
+      <div>
+        <input type="color" id="color" />
+        <label for="color">Font color</label>
+      </div>
+
+      <button class="button button--random" type="submit">
+        Pick A Number!
+      </button>
     </div>
-
-    <button class="button button--random" type="submit">Pick A Number!</button>
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>
